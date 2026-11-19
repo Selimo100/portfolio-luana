@@ -1,0 +1,324 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/bricolage-grotesque/standard.css';
+@import '@fontsource-variable/dm-sans/index.css';
+@import 'lenis/dist/lenis.css';
+
+/* ------------------------------------------------------------------
+   Design tokens — change colours and fonts here.
+   Tailwind utilities (bg-canvas, text-ink, bg-accent …) derive from them,
+   and the 3D scenes read the same values at runtime (src/lib/theme.ts).
+   ------------------------------------------------------------------ */
+
+@theme static {
+  /* Brand palette — the only five colours you need to set */
+  --color-canvas: #f5f0e9; /* page background (cream) */
+  --color-ink: #000000; /* text and dark UI */
+  --color-accent: #830010; /* burgundy: highlights, buttons, numbers */
+  --color-accent-deep: #490403; /* deep red: dark sections, finale */
+  --color-white: #ffffff;
+
+  /* Derived — mixed from the palette, they follow it automatically */
+  --color-accent-soft: color-mix(in srgb, var(--color-accent) 12%, var(--color-canvas));
+  --color-accent-mist: color-mix(in srgb, var(--color-accent) 32%, var(--color-canvas));
+  --color-muted: color-mix(in srgb, var(--color-ink) 55%, var(--color-canvas)); /* large secondary text */
+  --color-muted-strong: color-mix(in srgb, var(--color-ink) 64%, var(--color-canvas)); /* small text, WCAG AA */
+  --color-mist: color-mix(in srgb, var(--color-canvas) 74%, var(--color-accent-deep)); /* text on dark sections */
+  --color-paper: var(--color-white);
+
+  /* Typography */
+  --font-display:
+    'Bricolage Grotesque Variable',
+    'Bricolage Grotesque',
+    ui-sans-serif,
+    system-ui,
+    sans-serif;
+
+  --font-sans:
+    'DM Sans Variable',
+    'DM Sans',
+    ui-sans-serif,
+    system-ui,
+    sans-serif;
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --breakpoint-xs: 26rem;
+}
+
+
+:root {
+  --gutter: clamp(1rem, 4vw, 3.5rem);
+  --nav-height: 4.5rem;
+  /* Height of the project page hero — shared with the page transition */
+  --project-hero-h: 72svh;
+  color-scheme: light;
+}
+
+/* ------------------------------------------------------------------ base */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: var(--color-white);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 4px;
+    border-radius: 2px;
+  }
+
+  [data-tone='dark'] :focus-visible {
+    outline-color: var(--color-canvas);
+  }
+
+  img,
+  video {
+    max-width: 100%;
+    display: block;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/* ------------------------------------------------------------------ type */
+@layer components {
+  /* Oversized editorial display type */
+  .display {
+    font-family: var(--font-display);
+    font-variation-settings: 'opsz' 96;
+    font-weight: 700;
+    font-stretch: 78%;
+    letter-spacing: -0.035em;
+    line-height: 0.84;
+  }
+
+  .heading-xl {
+    font-family: var(--font-display);
+    font-variation-settings: 'opsz' 96;
+    font-weight: 650;
+    font-stretch: 82%;
+    letter-spacing: -0.03em;
+    line-height: 0.92;
+    font-size: clamp(3rem, 9.5vw, 9.5rem);
+  }
+
+  .heading-l {
+    font-family: var(--font-display);
+    font-variation-settings: 'opsz' 60;
+    font-weight: 600;
+    font-stretch: 86%;
+    letter-spacing: -0.025em;
+    line-height: 0.98;
+    font-size: clamp(2.1rem, 5vw, 4.25rem);
+  }
+
+  .heading-m {
+    font-family: var(--font-display);
+    font-variation-settings: 'opsz' 36;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.08;
+    font-size: clamp(1.4rem, 2.4vw, 2rem);
+  }
+
+  /* Small metadata label — sentence case, never shouty caps */
+  .meta {
+    font-size: 0.8125rem;
+    line-height: 1.35;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+  }
+
+  .lede {
+    font-size: clamp(1.15rem, 1.6vw, 1.375rem);
+    line-height: 1.5;
+    max-width: 34ch;
+  }
+
+  .shell {
+    padding-inline: var(--gutter);
+  }
+
+  /* A hairline used to structure sections */
+  .rule {
+    height: 1px;
+    background: currentColor;
+    opacity: 0.18;
+  }
+
+  /* Pill-shaped primary link */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 3.25rem;
+    padding: 0.85rem 1.6rem;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1;
+    transition:
+      background-color 0.4s var(--ease-editorial),
+      color 0.4s var(--ease-editorial),
+      transform 0.4s var(--ease-editorial);
+  }
+
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.5s var(--ease-editorial);
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+  }
+
+
+  /* Mask used for line-by-line headline reveals */
+  .line-mask {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 0.06em;
+    margin-bottom: -0.06em;
+  }
+  .line-mask > span {
+    display: block;
+  }
+
+  /* Very light film grain, used on the contact finale.
+     No blend mode and its own compositor layer: a blended, filter-generated
+     overlay had to be repainted on every scroll frame. */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    will-change: transform;
+    transform: translateZ(0);
+  }
+  .grain-light::after {
+    opacity: 0.035;
+  }
+}
+
+/* ------------------------------------------------------------------ WebGL layer */
+.gl-canvas {
+  position: fixed !important;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* When a WebGL image plane is active, the DOM image stays underneath as fallback */
+.gl-tracked {
+  position: absolute;
+  inset: 0;
+}
+
+/* ------------------------------------------------------------------ custom cursor */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 60;
+  pointer-events: none;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: -0.375rem 0 0 -0.375rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-ink);
+  display: grid;
+  place-items: center;
+  transition:
+    width 0.45s var(--ease-editorial),
+    height 0.45s var(--ease-editorial),
+    margin 0.45s var(--ease-editorial),
+    background-color 0.45s var(--ease-editorial),
+    opacity 0.3s;
+  mix-blend-mode: normal;
+}
+.cursor[data-state='label'] {
+  width: 5.5rem;
+  height: 5.5rem;
+  margin: -2.75rem 0 0 -2.75rem;
+  background: var(--color-ink);
+}
+.cursor__label {
+  color: var(--color-canvas);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.cursor[data-state='label'] .cursor__label {
+  opacity: 1;
+}
+.cursor[data-tone='dark'] {
+  border-color: var(--color-canvas);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --project-hero-h: 82svh;
+  }
+}
+
+@keyframes scrollcue {
+  0% {
+    transform: translateY(-100%);
+  }
+  60%,
+  100% {
+    transform: translateY(200%);
+  }
+}
+
+@keyframes spin3d {
+  from {
+    transform: rotateX(-18deg) rotateY(32deg);
+  }
+  to {
+    transform: rotateX(-18deg) rotateY(392deg);
+  }
+}
+
+/* ------------------------------------------------------------------ reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "homeTitle": "Luana Costa – Mediamatics Professional | Portfolio",
+    "homeDescription": "Portfolio of Luana Costa, a qualified mediamatics professional from Zurich,Switzerland. Work in graphic design, photography, video and digital media.",
+    "projectTitle": "{{title}} – Luana Costa",
+    "notFoundTitle": "Page not found – Luana Costa",
+    "ogImageAlt": "Luana Costa – A Creative Universe"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "primaryNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "homeLink": "Luana Costa – go to homepage",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "languageSwitch": "Choose language",
+    "newTab": "(opens in a new tab)"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "nav": {
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "heading": "Luana Costa, Mediamatics Professional",
+    "role": "Mediamatics Professional",
+    "location": "Zurich, Switzerland",
+    "tagline": "Design meets new perspectives.",
+    "cta": "Explore my work",
+    "scroll": "Scroll to explore"
+  },
+  "work": {
+    "title": "Selected Work",
+    "intro": "A selection of projects, ideas, and visual stories.",
+    "demoNotice": "Projects marked as demo are examples. They show how the portfolio is structured until Luana adds her own work.",
+    "filterLabel": "Filter work by category",
+    "all": "All",
+    "empty": "No projects found",
+    "reset": "Reset",
+    "view": "View project",
+    "cursor": "View",
+    "demo": "Demo",
+    "count_one": "{{count}} project",
+    "count_other": "{{count}} projects",
+    "resultsAnnouncement_one": "Showing {{count}} project",
+    "resultsAnnouncement_other": "Showing {{count}} projects"
+  },
+  "categories": {
+    "graphic": "Graphic Design",
+    "photography": "Photography",
+    "video": "Video & Film",
+    "branding": "Brand Identity",
+    "digital": "Digital & Web",
+    "campaigns": "Campaigns"
+  },
+  "project": {
+    "back": "Back to work",
+    "next": "Next project",
+    "overview": "Overview",
+    "brief": "Brief",
+    "challenge": "Challenge",
+    "role": "My Role",
+    "tools": "Tools Used",
+    "process": "Creative Process",
+    "outcome": "Outcome",
+    "gallery": "Gallery",
+    "category": "Category",
+    "year": "Year",
+    "video": "Video",
+    "beforeAfter": "Before and after",
+    "before": "Before",
+    "after": "After",
+    "compareLabel": "Move comparison: left is before, right is after",
+    "videoUnsupported": "Your browser can't play this video.",
+    "embedTitle": "Video for the project {{title}}",
+    "demoNotice": "Demo project: this page shows how a project page is structured. It will be replaced with real work by Luana."
+  },
+  "about": {
+    "title": "The person behind the ideas.",
+    "bio": [
+      "I'm Luana Costa, a qualified mediamatics professional from Switzerland. During my apprenticeship, I had the opportunity to explore different areas of media production and gain experience through a wide range of projects.",
+      "Here, I share a selection of my work and my personal perspective on design."
+    ],
+    "factsLabel": "In short",
+    "facts": {
+      "profession": "Profession",
+      "professionValue": "Mediamatics Professional (Mediamatikerin EFZ)",
+      "degree": "Qualifications",
+      "degreeValue": "Swiss Federal VET Diploma in Mediamatics and Vocational Baccalaureate in Business and Law, {{year}}",
+      "base": "Based in",
+      "baseValue": "Zurich,Switzerland",
+      "current": "Currently",
+      "currentValue": "Training Specialist at Sunrise, Social Media Manager at VoiceSteps"
+    },
+    "portraitAlt": "Portrait of Luana Costa",
+    "portraitPlaceholder": "Portrait coming soon",
+    "sticker": "Mediamatik\nEFZ"
+  },
+  "expertise": {
+    "title": "What I create.",
+    "intro": "Mediamatics brings together design, technology and communication. These are the disciplines I work in.",
+    "items": {
+      "graphic": {
+        "name": "Graphic Design",
+        "text": "Posters, print and visual systems – from the first sketch to the print-ready file."
+      },
+      "photography": {
+        "name": "Photography",
+        "text": "Images that hold on to a mood, and the editing that completes them."
+      },
+      "video": {
+        "name": "Video & Film",
+        "text": "Stories in motion: concept, shooting and editing, from storyboard to finished clip."
+      },
+      "branding": {
+        "name": "Brand Identity",
+        "text": "Logo, colour and typography that come together as one clear visual identity."
+      },
+      "digital": {
+        "name": "Digital & Web",
+        "text": "Websites and digital content, designed for every kind of screen."
+      }
+    }
+  },
+  "journey": {
+    "title": "My Journey",
+    "intro": "What I do today – and how I got here through my apprenticeship and school.",
+    "present": "present",
+    "issued": "Issued {{date}}",
+    "fullTime": "Full-time",
+    "partTime": "Part-time",
+    "certificate": "Certificate",
+    "stations": "Apprenticeship stations",
+    "chapters": {
+      "apprenticeship": "Apprenticeship",
+      "school": "School and certificates",
+      "current": "Today"
+    },
+    "items": {
+      "sunrise-apprenticeship": {
+        "title": "Apprenticeship as Mediamatikerin EFZ",
+        "note": "Swiss Federal VET Diploma in Mediamatics",
+        "description": "Four years of apprenticeship, working in several different teams.",
+        "skills": [
+          "Animation",
+          "Flyer design"
+        ]
+      },
+      "bzz-efz": {
+        "title": "Vocational education, Mediamatikerin EFZ",
+        "note": "Swiss Federal VET Diploma in Mediamatics",
+        "description": "",
+        "skills": [
+          "Project planning and project management"
+        ]
+      },
+      "bzz-bm": {
+        "title": "Vocational Baccalaureate in Business and Law",
+        "note": "Berufsmaturität Wirtschaft und Recht",
+        "description": "",
+        "skills": [
+          "Economics",
+          "Public law"
+        ]
+      },
+      "cambridge": {
+        "title": "Cambridge English: Advanced (C1)",
+        "note": "",
+        "description": "",
+        "skills": []
+      },
+      "voicesteps": {
+        "title": "Social Media Manager",
+        "note": "",
+        "description": "",
+        "skills": [
+          "Social media management",
+          "Flyer design"
+        ]
+      },
+      "sunrise-training": {
+        "title": "Training Specialist",
+        "note": "",
+        "description": "Business Process Improvement & Academy",
+        "skills": []
+      }
+    },
+    "steps": {
+      "ictbbc": "Basic training year",
+      "avengers": "",
+      "flanker": "E-commerce",
+      "hr": ""
+    }
+  },
+  "contact": {
+    "title": "Let's create something new.",
+    "text": "Have an idea, a project, or simply want to connect? I'd love to hear from you.",
+    "email": "Send a message",
+    "linkedin": "LinkedIn",
+    "linkedinPrimary": "Message me on LinkedIn",
+    "cv": "Download CV",
+    "top": "Back to top",
+    "rights": "© {{year}} Luana Costa",
+    "location": "Zurich, Switzerland",
+    "egg": "Tap the monogram: roll camera!"
+  },
+  "notFound": {
+    "title": "This page doesn't exist.",
+    "text": "The link may be out of date. You'll find all projects on the homepage.",
+    "cta": "Go to homepage"
+  },
+  "projects": {
+    "items": {
+      "poster-series": {
+        "title": "Sound & Form",
+        "summary": "Demo content: a typographic poster series that translates rhythm and volume into form.",
+        "brief": "Example brief: three posters for a fictional concert series that work even from a distance.",
+        "challenge": "Using only type, shape and colour to build a series that belongs together while each poster stands on its own.",
+        "role": "Concept, typography and final artwork (example text).",
+        "process": [
+          "Paper sketches to find rhythms and shapes.",
+          "A grid and colour palette that connect all posters.",
+          "Full-size test prints to check impact and legibility."
+        ],
+        "outcome": "A series of three posters. Real results will be described here later.",
+        "alt": {
+          "cover": "Placeholder image: abstract poster with coral arcs and lines on a light background",
+          "detail1": "Placeholder image: portrait poster with lilac circles",
+          "detail2": "Placeholder image: portrait poster with green stripes",
+          "detail3": "Placeholder image: three posters side by side on a wall"
+        }
+      },
+      "city-light": {
+        "title": "City Light",
+        "summary": "Demo content: a photo series about light and shadow in the city at dusk.",
+        "brief": "Example brief: a series with a consistent mood, shot in different locations.",
+        "challenge": "Bringing changing light conditions together in one visual language.",
+        "role": "Photography and image editing (example text).",
+        "process": [
+          "Scouting locations at different times of day.",
+          "Shooting calm, clear compositions.",
+          "A shared colour grade for the whole series."
+        ],
+        "outcome": "A series with a consistent colour mood. Real results will be described here later.",
+        "alt": {
+          "cover": "Placeholder image: abstract dusk mood in lilac and coral, portrait format",
+          "detail1": "Placeholder image: landscape with warm light above a silhouette",
+          "detail2": "Placeholder image: portrait format with streaks of light",
+          "before": "Placeholder image: the same shot before editing, flat and grey",
+          "after": "Placeholder image: the same shot after editing, with warm colours"
+        }
+      },
+      "short-film": {
+        "title": "In Between",
+        "summary": "Demo content: a short film about journeys, pauses and the moments in between.",
+        "brief": "Example brief: a short film of about two minutes without dialogue.",
+        "challenge": "Telling a story through images, editing and sound alone.",
+        "role": "Concept, camera and editing (example text).",
+        "process": [
+          "A storyboard with the key shots.",
+          "Two shooting days with natural light.",
+          "Editing, colour correction and sound mixing."
+        ],
+        "outcome": "A short film in web quality. Real results will be described here later.",
+        "alt": {
+          "cover": "Placeholder image: wide film still with green and lilac shapes",
+          "detail1": "Placeholder image: film still with a horizon line",
+          "detail2": "Placeholder image: storyboard sketches in a grid"
+        }
+      },
+      "brand-identity": {
+        "title": "Brand Study",
+        "summary": "Demo content: a visual identity for a fictional small brand, from logo to packaging.",
+        "brief": "Example brief: a flexible identity that works on paper and on screen.",
+        "challenge": "Finding a mark that is simple enough for small sizes and distinctive enough for large surfaces.",
+        "role": "Concept, logo and brand guidelines (example text).",
+        "process": [
+          "Research and moodboard.",
+          "Logo sketches and typeface selection.",
+          "Applications such as business cards, packaging and social media templates."
+        ],
+        "outcome": "A compact brand manual. Real results will be described here later.",
+        "alt": {
+          "cover": "Placeholder image: packaging and cards in lilac and green",
+          "detail1": "Placeholder image: logo mark on a square surface",
+          "detail2": "Placeholder image: portrait format with colour swatches and type specimens"
+        }
+      },
+      "web-concept": {
+        "title": "Culture Guide",
+        "summary": "Demo content: a web concept for a fictional events guide, designed for mobile and desktop.",
+        "brief": "Example brief: present events clearly and make them quick to find.",
+        "challenge": "Organising a lot of information so it stays clear and comfortable to read on small screens.",
+        "role": "Concept, interface design and prototype (example text).",
+        "process": [
+          "Mapping user journeys and prioritising content.",
+          "Wireframes for mobile and desktop.",
+          "A clickable prototype, tested with friends."
+        ],
+        "outcome": "A clickable prototype. Real results will be described here later.",
+        "alt": {
+          "cover": "Placeholder image: mobile view of an events guide, portrait format",
+          "detail1": "Placeholder image: desktop view of a website, wide format",
+          "detail2": "Placeholder image: wireframes on a light background"
+        }
+      }
+    }
+  }
+}

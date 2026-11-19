@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "homeTitle": "Luana Costa – Mediamatikerin EFZ | Portfolio",
+    "homeDescription": "Portfolio von Luana Costa, Mediamatikerin EFZ aus der Schweiz. Arbeiten aus Grafikdesign, Fotografie, Video und digitaler Gestaltung.",
+    "projectTitle": "{{title}} – Luana Costa",
+    "notFoundTitle": "Seite nicht gefunden – Luana Costa",
+    "ogImageAlt": "Luana Costa – A Creative Universe"
+  },
+  "a11y": {
+    "skip": "Zum Inhalt springen",
+    "primaryNav": "Hauptnavigation",
+    "footerNav": "Fussnavigation",
+    "homeLink": "Luana Costa – zur Startseite",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schliessen",
+    "languageSwitch": "Sprache wählen",
+    "newTab": "(öffnet in neuem Tab)"
+  },
+  "languages": {
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "nav": {
+    "home": "Startseite",
+    "work": "Arbeiten",
+    "about": "Über mich",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "heading": "Luana Costa, Mediamatikerin EFZ",
+    "role": "Mediamatikerin EFZ",
+    "location": "Zürich, Schweiz",
+    "tagline": "Gestaltung trifft auf neue Perspektiven.",
+    "cta": "Arbeiten entdecken",
+    "scroll": "Scrollen und entdecken"
+  },
+  "work": {
+    "title": "Ausgewählte Arbeiten",
+    "intro": "Eine Auswahl an Projekten, Ideen und visuellen Geschichten.",
+    "demoNotice": "Die Projekte mit Demo-Hinweis sind Beispiele. Sie zeigen den Aufbau des Portfolios, bis Luana ihre eigenen Arbeiten ergänzt.",
+    "filterLabel": "Arbeiten nach Kategorie filtern",
+    "all": "Alle",
+    "empty": "Keine Projekte gefunden",
+    "reset": "Zurücksetzen",
+    "view": "Projekt ansehen",
+    "cursor": "Ansehen",
+    "demo": "Demo",
+    "count_one": "{{count}} Projekt",
+    "count_other": "{{count}} Projekte",
+    "resultsAnnouncement_one": "{{count}} Projekt angezeigt",
+    "resultsAnnouncement_other": "{{count}} Projekte angezeigt"
+  },
+  "categories": {
+    "graphic": "Grafikdesign",
+    "photography": "Fotografie",
+    "video": "Video & Film",
+    "branding": "Markenidentität",
+    "digital": "Digital & Web",
+    "campaigns": "Kampagnen"
+  },
+  "project": {
+    "back": "Zurück zu den Arbeiten",
+    "next": "Nächstes Projekt",
+    "overview": "Überblick",
+    "brief": "Aufgabe",
+    "challenge": "Herausforderung",
+    "role": "Meine Rolle",
+    "tools": "Verwendete Tools",
+    "process": "Gestaltungsprozess",
+    "outcome": "Ergebnis",
+    "gallery": "Bildstrecke",
+    "category": "Kategorie",
+    "year": "Jahr",
+    "video": "Video",
+    "beforeAfter": "Vorher und nachher",
+    "before": "Vorher",
+    "after": "Nachher",
+    "compareLabel": "Vergleich verschieben: links vorher, rechts nachher",
+    "videoUnsupported": "Dein Browser kann dieses Video nicht abspielen.",
+    "embedTitle": "Video zum Projekt {{title}}",
+    "demoNotice": "Beispielprojekt: Diese Seite zeigt, wie eine Projektseite aufgebaut ist. Sie wird durch eine echte Arbeit von Luana ersetzt."
+  },
+  "about": {
+    "title": "Die Person hinter den Ideen.",
+    "bio": [
+      "Ich bin Luana Costa, Mediamatikerin EFZ aus der Schweiz. Während meiner Ausbildung durfte ich unterschiedliche Bereiche der Mediengestaltung kennenlernen und Erfahrungen in vielseitigen Projekten sammeln.",
+      "Hier zeige ich eine Auswahl meiner Arbeiten und meinen persönlichen Blick auf Gestaltung."
+    ],
+    "factsLabel": "Kurz und knapp",
+    "facts": {
+      "profession": "Beruf",
+      "professionValue": "Mediamatikerin EFZ",
+      "degree": "Abschlüsse",
+      "degreeValue": "Mediamatikerin EFZ und Berufsmaturität Wirtschaft und Recht, {{year}}",
+      "base": "Basis",
+      "baseValue": "Zürich, Schweiz",
+      "current": "Heute",
+      "currentValue": "Training Specialist bei Sunrise, Social-Media-Managerin bei VoiceSteps"
+    },
+    "portraitAlt": "Porträt von Luana Costa",
+    "portraitPlaceholder": "Porträt folgt",
+    "sticker": "Mediamatik\nEFZ"
+  },
+  "expertise": {
+    "title": "Was ich gestalte.",
+    "intro": "Mediamatik verbindet Gestaltung, Technik und Kommunikation. In diesen Disziplinen bewege ich mich.",
+    "items": {
+      "graphic": {
+        "name": "Grafikdesign",
+        "text": "Plakate, Drucksachen und visuelle Systeme – vom ersten Entwurf bis zur druckfertigen Datei."
+      },
+      "photography": {
+        "name": "Fotografie",
+        "text": "Bilder, die eine Stimmung festhalten, und die Bildbearbeitung, die sie vollendet."
+      },
+      "video": {
+        "name": "Video & Film",
+        "text": "Geschichten in Bewegung: Konzept, Dreh und Schnitt, vom Storyboard bis zum fertigen Clip."
+      },
+      "branding": {
+        "name": "Markenidentität",
+        "text": "Logo, Farben und Typografie, die zusammen ein klares Erscheinungsbild ergeben."
+      },
+      "digital": {
+        "name": "Digital & Web",
+        "text": "Websites und digitale Inhalte, gestaltet für unterschiedliche Bildschirme."
+      }
+    }
+  },
+  "journey": {
+    "title": "Mein Weg",
+    "intro": "Was ich heute mache – und der Weg dahin über Lehre und Schule.",
+    "present": "heute",
+    "issued": "Ausgestellt {{date}}",
+    "fullTime": "Vollzeit",
+    "partTime": "Teilzeit",
+    "certificate": "Zertifikat",
+    "stations": "Stationen in der Lehre",
+    "chapters": {
+      "apprenticeship": "Lehre",
+      "school": "Schule und Zertifikate",
+      "current": "Heute"
+    },
+    "items": {
+      "sunrise-apprenticeship": {
+        "title": "Lehre als Mediamatikerin EFZ",
+        "note": "",
+        "description": "Vier Jahre Lehre mit Einsätzen in verschiedenen Teams.",
+        "skills": [
+          "Animation",
+          "Flyer-Design"
+        ]
+      },
+      "bzz-efz": {
+        "title": "Berufsausbildung Mediamatikerin EFZ",
+        "note": "Eidgenössisches Fähigkeitszeugnis",
+        "description": "",
+        "skills": [
+          "Projektplanung und Projektmanagement"
+        ]
+      },
+      "bzz-bm": {
+        "title": "Berufsmaturität Wirtschaft und Recht",
+        "note": "",
+        "description": "",
+        "skills": [
+          "Wirtschaft",
+          "Öffentliches Recht"
+        ]
+      },
+      "cambridge": {
+        "title": "Cambridge English: Advanced (C1)",
+        "note": "",
+        "description": "",
+        "skills": []
+      },
+      "voicesteps": {
+        "title": "Social-Media-Managerin",
+        "note": "",
+        "description": "",
+        "skills": [
+          "Social Media Management",
+          "Flyer-Design"
+        ]
+      },
+      "sunrise-training": {
+        "title": "Training Specialist",
+        "note": "",
+        "description": "Business Process Improvement & Academy",
+        "skills": []
+      }
+    },
+    "steps": {
+      "ictbbc": "Basislehrjahr",
+      "avengers": "",
+      "flanker": "E-Commerce",
+      "hr": ""
+    }
+  },
+  "contact": {
+    "title": "Lass uns etwas Neues gestalten.",
+    "text": "Du hast eine Idee, ein Projekt oder möchtest dich einfach austauschen? Ich freue mich, von dir zu hören.",
+    "email": "Nachricht schreiben",
+    "linkedin": "LinkedIn",
+    "linkedinPrimary": "Auf LinkedIn schreiben",
+    "cv": "Lebenslauf herunterladen",
+    "top": "Nach oben",
+    "rights": "© {{year}} Luana Costa",
+    "location": "Zürich, Schweiz",
+    "egg": "Monogramm antippen: Kamera läuft!"
+  },
+  "notFound": {
+    "title": "Diese Seite gibt es nicht.",
+    "text": "Vielleicht ist der Link veraltet. Auf der Startseite findest du alle Arbeiten.",
+    "cta": "Zur Startseite"
+  },
+  "projects": {
+    "items": {
+      "poster-series": {
+        "title": "Klang & Form",
+        "summary": "Demo-Inhalt: eine typografische Plakatserie, in der Rhythmus und Lautstärke in Form übersetzt werden.",
+        "brief": "Beispielaufgabe: drei Plakate für eine fiktive Konzertreihe, die auch aus grosser Distanz funktionieren.",
+        "challenge": "Mit wenigen Mitteln – Schrift, Fläche und Farbe – eine Serie gestalten, die zusammengehört, aber jedes Plakat eigenständig wirken lässt.",
+        "role": "Konzept, Typografie und Reinzeichnung (Beispieltext).",
+        "process": [
+          "Skizzen auf Papier, um Rhythmen und Formen zu finden.",
+          "Ein Raster und eine Farbpalette, die alle Plakate verbinden.",
+          "Testdrucke im Originalformat, um Wirkung und Lesbarkeit zu prüfen."
+        ],
+        "outcome": "Eine Serie aus drei Plakaten. Hier werden später echte Ergebnisse beschrieben.",
+        "alt": {
+          "cover": "Platzhalterbild: abstraktes Plakat mit korallroten Bögen und Linien auf hellem Grund",
+          "detail1": "Platzhalterbild: Hochformat-Plakat mit lila Kreisformen",
+          "detail2": "Platzhalterbild: Hochformat-Plakat mit grünen Streifen",
+          "detail3": "Platzhalterbild: drei Plakate nebeneinander an einer Wand"
+        }
+      },
+      "city-light": {
+        "title": "Stadtlicht",
+        "summary": "Demo-Inhalt: eine Fotoserie über Licht und Schatten in der Stadt am frühen Abend.",
+        "brief": "Beispielaufgabe: eine Bildserie mit einheitlicher Stimmung, aufgenommen an verschiedenen Orten.",
+        "challenge": "Wechselnde Lichtsituationen in einer gemeinsamen Bildsprache zusammenführen.",
+        "role": "Fotografie und Bildbearbeitung (Beispieltext).",
+        "process": [
+          "Orte zu unterschiedlichen Tageszeiten erkunden.",
+          "Aufnahmen mit ruhigen, klaren Kompositionen.",
+          "Eine gemeinsame Farbabstimmung für die ganze Serie."
+        ],
+        "outcome": "Eine Serie mit einheitlicher Farbstimmung. Hier werden später echte Ergebnisse beschrieben.",
+        "alt": {
+          "cover": "Platzhalterbild: abstrakte Abendstimmung in Lila und Koralle im Hochformat",
+          "detail1": "Platzhalterbild: Querformat mit warmem Licht über einer Silhouette",
+          "detail2": "Platzhalterbild: Hochformat mit Lichtstreifen",
+          "before": "Platzhalterbild: dieselbe Aufnahme vor der Bildbearbeitung, flau und grau",
+          "after": "Platzhalterbild: dieselbe Aufnahme nach der Bildbearbeitung mit warmen Farben"
+        }
+      },
+      "short-film": {
+        "title": "Zwischenräume",
+        "summary": "Demo-Inhalt: ein kurzer Film über Wege, Pausen und die Momente dazwischen.",
+        "brief": "Beispielaufgabe: ein Kurzfilm von etwa zwei Minuten ohne gesprochenen Text.",
+        "challenge": "Eine Geschichte nur mit Bildern, Schnitt und Ton erzählen.",
+        "role": "Konzept, Kamera und Schnitt (Beispieltext).",
+        "process": [
+          "Storyboard mit den wichtigsten Einstellungen.",
+          "Dreh an zwei Tagen mit natürlichem Licht.",
+          "Schnitt, Farbkorrektur und Tonmischung."
+        ],
+        "outcome": "Ein Kurzfilm in Webqualität. Hier werden später echte Ergebnisse beschrieben.",
+        "alt": {
+          "cover": "Platzhalterbild: breites Filmstandbild mit grünen und lila Flächen",
+          "detail1": "Platzhalterbild: Filmstandbild mit Horizontlinie",
+          "detail2": "Platzhalterbild: Storyboard-Skizzen in einem Raster"
+        }
+      },
+      "brand-identity": {
+        "title": "Markenstudie",
+        "summary": "Demo-Inhalt: ein Erscheinungsbild für eine fiktive kleine Marke, von der Bildmarke bis zur Verpackung.",
+        "brief": "Beispielaufgabe: ein flexibles Erscheinungsbild, das auf Papier und Bildschirm funktioniert.",
+        "challenge": "Ein Zeichen finden, das einfach genug ist für kleine Grössen und eigenständig genug für grosse Flächen.",
+        "role": "Konzept, Bildmarke und Gestaltungsrichtlinien (Beispieltext).",
+        "process": [
+          "Recherche und Moodboard.",
+          "Entwürfe für die Bildmarke und Auswahl der Schriften.",
+          "Anwendungen wie Visitenkarte, Verpackung und Social-Media-Vorlagen."
+        ],
+        "outcome": "Ein kompaktes Gestaltungshandbuch. Hier werden später echte Ergebnisse beschrieben.",
+        "alt": {
+          "cover": "Platzhalterbild: Verpackung und Karten in Lila und Grün",
+          "detail1": "Platzhalterbild: Bildmarke auf quadratischer Fläche",
+          "detail2": "Platzhalterbild: Hochformat mit Farbfeldern und Schriftmustern"
+        }
+      },
+      "web-concept": {
+        "title": "Kulturagenda",
+        "summary": "Demo-Inhalt: ein Webkonzept für eine fiktive Veranstaltungsagenda, gestaltet für Smartphone und Desktop.",
+        "brief": "Beispielaufgabe: Veranstaltungen übersichtlich darstellen und schnell auffindbar machen.",
+        "challenge": "Viele Informationen auf kleinen Bildschirmen klar und angenehm lesbar ordnen.",
+        "role": "Konzept, Interface-Design und Prototyp (Beispieltext).",
+        "process": [
+          "Nutzerwege skizzieren und Inhalte priorisieren.",
+          "Wireframes für Smartphone und Desktop.",
+          "Klickbarer Prototyp und Tests mit Freundinnen und Freunden."
+        ],
+        "outcome": "Ein klickbarer Prototyp. Hier werden später echte Ergebnisse beschrieben.",
+        "alt": {
+          "cover": "Platzhalterbild: Smartphone-Ansicht einer Agenda im Hochformat",
+          "detail1": "Platzhalterbild: Desktop-Ansicht einer Webseite im Breitformat",
+          "detail2": "Platzhalterbild: Wireframes auf hellem Grund"
+        }
+      }
+    }
+  }
+}
